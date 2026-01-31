@@ -31,3 +31,13 @@ GROUP BY
     c.company_name 
 ORDER BY 
     trips_amount DESC;
+-- Ejercicio 3: Clasificación de condiciones climáticas
+-- Esta consulta permite segmentar los datos para analizar el impacto del clima en los viajes.
+SELECT
+    ts,
+    CASE
+        WHEN description LIKE '%rain%' OR description LIKE '%storm%' THEN 'Bad'
+        ELSE 'Good'
+    END AS weather_conditions
+FROM
+    weather_records;
