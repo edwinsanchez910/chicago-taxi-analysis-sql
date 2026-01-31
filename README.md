@@ -37,3 +37,17 @@ Este repositorio refleja mi compromiso con la mejora continua. Tras un cambio ra
 📫 **Contacto:**
 * www.linkedin.com/in/edwin-albeiro-sanchez-blanco-975530176
 * https://github.com/edwinsanchez910
+* ---
+## 📸 Evidencias del Proyecto
+
+### 1. Gestión de Logs y Directorios
+En esta captura se observa la creación de la estructura de carpetas `bug1/events` y el filtrado de errores 400 y 500 directamente desde el servidor.
+![Captura Terminal](terminal_logs.png) 
+
+### 2. Consultas en PostgreSQL
+Aquí se muestra la ejecución exitosa de las consultas SQL, incluyendo el análisis de la flota de taxis y la clasificación climática.
+![Captura SQL](resultado_sql.png)
+
+### 3. Conexión SSH Exitosa
+Evidencia de la conexión segura al servidor remoto de TripleTen con el usuario **morty**.
+![Captura SSH](conexion_servidor.png)
